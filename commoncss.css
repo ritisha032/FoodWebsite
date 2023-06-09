@@ -1,0 +1,76 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	overflow:auto;
+	background-image:url("cafe.png");
+}
+
+#menu ul{
+	list-style:none;
+	font-size:1.2em;
+}
+#menu ul li{
+	background-color:black;
+	border:1px solid white;
+	width:267px;
+	height:50px;
+	text-align:center;
+	line-height:50px;
+	float:left;
+	position:relative;
+}
+#menu ul li a{
+	text-decoration:none;
+	color:white;
+	display:block;
+	
+}
+#menu ul li a:hover{
+	background-color:green;
+}
+#menu ul ul{
+	display:none;
+	position:absolute;
+}
+#menu ul li:hover > ul{
+	display:block;
+}
+
+.footer{
+	height:auto;
+	width:100%;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	background-color:#C21807;
+	
+	
+}
+.footerele{
+	height:150px;
+	width:300px;
+	border:0px solid blue;
+	float:left;
+	display:flex;
+	justify-content:space-around;
+	margin-top:10px;
+	color:white;
+	text-align:center;
+	
+	
+}
+address{
+	font-size:22px;
+}
+.footerele a{
+	text-decoration:none;
+	color:black;
+	font-size:22px;
+	margin:3px;
+	justify-content:center;
+}
+.footerele a:hover{
+	color:yellow;
+}

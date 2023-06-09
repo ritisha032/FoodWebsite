@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+
+<style>
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+background-image:url("cafe.png");
+}
+
+#menu ul{
+	list-style:none;
+	font-size:1.2em;
+}
+#menu ul li{
+	background-color:black;
+	border:1px solid white;
+	width:267px;
+	height:50px;
+	text-align:center;
+	line-height:50px;
+	float:left;
+	position:relative;
+}
+#menu ul li a{
+	text-decoration:none;
+	color:white;
+	display:block;
+	
+}
+#menu ul li a:hover{
+	background-color:green;
+}
+#menu ul ul{
+	display:none;
+	position:absolute;
+}
+#menu ul li:hover > ul{
+	display:block;
+}
+
+
+
+</style>
+
+</head>
+
+<body>
+
+<div id="menu">
+  <ul>
+     <li><a href="index.html"><b>HOME</a></li>
+     <li><a href="about.html">ABOUT</a></li>
+     <li><a href="#">MENU</a>
+	   <ul>
+	     <li><a href="vegthali.html">VEG-THALI</a>
+		 <li><a href="nonvegthali.html">NON-VEG THALI</a>
+		 <li><a href="parathas.html">PARATHAS</a>
+		 <li><a href="pasta.html">PASTA</a>
+	   </ul>
+	 </li>
+     <li><a href="order.html">ORDER</a></li>
+     <li><a href="contactus.html">CONTACT US</a></li>
+  </ul>
+</div>
+
+
+  <h1>Form Submitted We will get back to you!!!!!! </h1>
+  
+  
+  
+</body>
+</html>

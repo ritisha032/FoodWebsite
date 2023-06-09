@@ -1,0 +1,57 @@
+
+.heading{
+	text-align:center; 
+	font-size:50px; 
+	color:red;
+	font-weight:bolder;
+	height:5%;
+}
+
+.top_cat{
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	
+}
+.top_cat_pro{
+	border: 2px solid black;
+	width:400px;
+	height:280px;
+	float:left;
+	margin-top:20px;
+	margin-bottom:60px;
+	box-shadow:5px 5px 3px 5px black;
+	
+}
+
+.top_cat_pro img{
+	width:100%;
+	height:180px;
+	
+}
+.checked{
+	color:orange;
+}
+.ratings{
+	text-align:center;
+}
+
+.button{
+	display:flex;
+	justify-content:center;
+	height:40px;
+	width:auto;
+}
+
+.button input{
+	height:40px;
+	width:130px;
+	border-radius:4px;
+	background-color:orange;
+	font-size:15px;
+	font-weight:bold;
+}
+.button input:hover{
+	background-color:green;
+	color:white;
+}

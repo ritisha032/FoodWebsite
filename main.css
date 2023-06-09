@@ -1,0 +1,86 @@
+
+img{
+	float:left;
+}
+
+.heading{
+	text-align:center;
+	font-style:italic;
+	font-family:"Lucida Handwriting";
+	font-size:40px;
+    padding:20px;
+    color:red;
+}
+
+
+.top_cat{
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	
+}
+.top_cat_pro{
+	border: 2px solid black;
+	width:400px;
+	height:260px;
+	float:left;
+	margin-top:20px;
+	margin-bottom:60px;
+	box-shadow:5px 5px 3px 5px black;
+	transition: transform .2s;
+}
+
+.top_cat_pro:hover{
+	transform: scale(1.2);
+}
+.top_cat_pro img{
+	width:100%;
+	height:180px;
+	margin-top:20px;
+}
+.checked{
+	color:orange;
+}
+.ratings{
+	text-align:center;
+	margin:20px;
+	padding:20px;
+}
+
+.footer{
+	height:auto;
+	width:100%;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	background-color:#C21807;
+	position:sticky;
+	
+}
+.footerele{
+	height:150px;
+	width:300px;
+	border:0px solid blue;
+	float:left;
+	display:flex;
+	justify-content:space-around;
+	margin-top:10px;
+	color:white;
+	text-align:center;
+	
+	
+}
+address{
+	font-size:22px;
+}
+.footerele a{
+	text-decoration:none;
+	color:black;
+	font-size:22px;
+	margin:3px;
+	justify-content:center;
+}
+.footerele a:hover{
+	color:yellow;
+}
+
